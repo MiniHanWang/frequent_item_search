@@ -8,9 +8,13 @@
 2.for j in string_single:
     计算string_single第一项的频率i_1
     i_2=i_1
-    i_3=0
+    i_3 = [j]
     计算string_single第二项到len(string_single)项的频率i_1
     if  i_2<i_1:
         i_2=i_1
-        i_3+=1
-3.print("频率最高的数据项是：",string_single[i_3])
+        i_3 = [j]
+if  i_2=i_1:
+        i_3.append(j)
+3.去除i_3中的重复项
+4. i in i_3:
+   print("频率最高的数据项是："，string_single[i])
