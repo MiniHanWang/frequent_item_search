@@ -16,5 +16,5 @@
 if  i_2=i_1:
         i_3.append(j)
 3.去除i_3中的重复项
-4. i in i_3:
+4. for i in i_3:
    print("频率最高的数据项是："，string_single[i])
